@@ -1,0 +1,40 @@
+{
+  "id": "mq11ac3kej",
+  "name": {
+    "tr": "Masa",
+    "en": "Table",
+    "ar": "طاولة"
+  },
+  "description": {
+    "tr": "Saat çarkıyla masa talebi; fiyatlar örnektir (demo).",
+    "en": "Table request with a time wheel; prices are examples (demo).",
+    "ar": "طلب طاولة بعجلة الوقت؛ الأسعار أمثلة (تجريبي)."
+  },
+  "keyword": {
+    "tr": "masa ayırtma, semaver",
+    "en": "table booking, samovar",
+    "ar": "حجز طاولة، سماور"
+  },
+  "path": "teklif-al",
+  "icon": "table_restaurant",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "xe7r5e",
+      "v8gc8z"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Masa",
+    "en": "Table",
+    "ar": "طاولة"
+  },
+  "date": "2026-11-16T20:21:33.961Z",
+  "update": "2026-11-16T20:24:16.500Z"
+}

@@ -1,0 +1,48 @@
+{
+  "name": {
+    "tr": "Hikâye",
+    "en": "Story",
+    "ar": "الحكاية"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 0,
+  "icon": "auto_stories",
+  "desing": {
+    "header": [],
+    "body": [
+      "lle26c",
+      "y7mji5",
+      "8tr9sg"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Kurucunun mektubu, masanın etrafı ve kara tahta (kurgusal).",
+    "en": "The founder’s letter, around the table and the chalkboard (fictional).",
+    "ar": "رسالة المؤسِّسة وما حول الطاولة واللوح (افتراضي)."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hikâye",
+    "en": "Story",
+    "ar": "الحكاية"
+  },
+  "keyword": {
+    "tr": "çay evi, hikâye",
+    "en": "tea house, story",
+    "ar": "بيت شاي، حكاية"
+  },
+  "text": {},
+  "update": "2026-11-16T20:24:16.494Z",
+  "date": "2026-10-30"
+}

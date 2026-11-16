@@ -1,0 +1,29 @@
+{
+  "name": "İnce Belli",
+  "short_name": "İnce Belli",
+  "description": "İnce Belli: Moda’da tek salonlu çay evi; yamaçtan bardağa bir çayın yolculuğu, taze dem, ikramlar ve saat çarkıyla masa ayırtma. Demo site; içerik kurgusal, görseller temsilîdir.",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#D99A3B",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

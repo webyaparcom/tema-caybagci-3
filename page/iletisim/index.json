@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Kartpostal",
+    "en": "Postcard",
+    "ar": "بطاقة"
+  },
+  "status": "play",
+  "category": "",
+  "id": "iletisim",
+  "url": "",
+  "path": "iletisim",
+  "index": 2,
+  "icon": "mail",
+  "desing": {
+    "header": [],
+    "body": [
+      "62kjd8",
+      "k8mp01"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Adres, telefon, WhatsApp ve saatler.",
+    "en": "Address, phone, WhatsApp and hours.",
+    "ar": "العنوان والهاتف وواتساب والساعات."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Kartpostal",
+    "en": "Postcard",
+    "ar": "بطاقة"
+  },
+  "keyword": {
+    "tr": "iletişim, Moda",
+    "en": "contact, Moda",
+    "ar": "اتصال، مودا"
+  },
+  "text": {},
+  "update": "2026-11-16T20:24:16.505Z",
+  "date": "2026-10-30"
+}

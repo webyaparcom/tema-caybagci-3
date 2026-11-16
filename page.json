@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Hikâye",
+        "en": "Story",
+        "ar": "الحكاية"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 0,
+      "icon": "auto_stories",
+      "desing": {
+        "header": [],
+        "body": [
+          "lle26c",
+          "y7mji5",
+          "8tr9sg"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Kurucunun mektubu, masanın etrafı ve kara tahta (kurgusal).",
+        "en": "The founder’s letter, around the table and the chalkboard (fictional).",
+        "ar": "رسالة المؤسِّسة وما حول الطاولة واللوح (افتراضي)."
+      }
+    },
+    {
+      "id": "mq11ac3kej",
+      "name": {
+        "tr": "Masa",
+        "en": "Table",
+        "ar": "طاولة"
+      },
+      "description": {
+        "tr": "Saat çarkıyla masa talebi; fiyatlar örnektir (demo).",
+        "en": "Table request with a time wheel; prices are examples (demo).",
+        "ar": "طلب طاولة بعجلة الوقت؛ الأسعار أمثلة (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "table_restaurant",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "xe7r5e",
+          "v8gc8z"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "name": {
+        "tr": "Kartpostal",
+        "en": "Postcard",
+        "ar": "بطاقة"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 2,
+      "icon": "mail",
+      "desing": {
+        "header": [],
+        "body": [
+          "62kjd8",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, WhatsApp ve saatler.",
+        "en": "Address, phone, WhatsApp and hours.",
+        "ar": "العنوان والهاتف وواتساب والساعات."
+      }
+    }
+  ],
+  "desc": []
+}
