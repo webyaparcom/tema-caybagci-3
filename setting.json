@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "İnce Belli: Moda’da tek salonlu çay evi; yamaçtan bardağa bir çayın yolculuğu, taze dem, ikramlar ve saat çarkıyla masa ayırtma. Demo site; içerik kurgusal, görseller temsilîdir.",
+    "en": "Ince Belli: a one-room tea house in Moda; the journey of tea from slope to glass, fresh brews, treats and table booking with a time wheel. Demo site; content is fictional, images are representative.",
+    "ar": "إنجه بلّي: بيت شاي بقاعة واحدة في مودا؛ رحلة الشاي من المنحدر إلى الكأس، وتخمير طازج وضيافة وحجز طاولة بعجلة الوقت. موقع تجريبي؛ المحتوى افتراضي والصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "çay evi, ince belli bardak, demlik çay, Moda, Kadıköy, masa ayırtma",
+    "en": "tea house, tulip tea glass, pot tea, Moda, Kadikoy, table booking",
+    "ar": "بيت شاي، كأس الشاي التركي، شاي الإبريق، مودا، قاضي كوي، حجز طاولة"
+  },
+  "category": "Kurumsal",
+  "name": "İnce Belli",
+  "domain": "caybagci-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "nunito-sans",
+    "heading": "cormorant-garamond",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-naskh-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#D99A3B",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "1px",
+    "--mx-radius-md": "2px",
+    "--mx-radius-lg": "3px",
+    "--mx-radius-xl": "4px"
+  },
+  "icon": "icon.png"
+}

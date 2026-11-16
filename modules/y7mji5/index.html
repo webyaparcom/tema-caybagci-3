@@ -1,0 +1,67 @@
+<section class="modulex-galeri-daire{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-galeri-daire-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* galeri-daire — Köşeli kare yerine daire biçim dili; ürün çeşidi, menü kalemi, hizmet türü gibi «seç-gör» koleksiyonlarında yumuşak, simge gibi sunum. */
+  .modulex-galeri-daire { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-galeri-daire *, .modulex-galeri-daire *::before, .modulex-galeri-daire *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-galeri-daire :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-galeri-daire :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-galeri-daire :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-galeri-daire :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-galeri-daire img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-galeri-daire) img { height: auto; }
+  .modulex-galeri-daire [hidden] { display: none !important; }
+  .modulex-galeri-daire :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-galeri-daire :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-galeri-daire-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-galeri-daire-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-galeri-daire--bassiz .modulex-galeri-daire-bas { display: none; }
+  .modulex-galeri-daire-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-galeri-daire-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-galeri-daire-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-galeri-daire-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-galeri-daire-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-galeri-daire-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-galeri-daire-dugme:hover { transform: translateY(-2px); }
+  .modulex-galeri-daire-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-galeri-daire-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-galeri-daire-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-galeri-daire-liste { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 36px 24px; }
+  .modulex-galeri-daire-oge { display: grid; justify-items: center; gap: 6px; text-align: center; }
+  .modulex-galeri-daire-halka { position: relative; display: block; width: min(100%, 220px); margin-block-end: 12px; padding: 6px; border: 1px solid --cizgi--; border-radius: 50%; }
+  .modulex-galeri-daire-halka::before { content: ""; position: absolute; inset: -8px; border: 2px dashed --accent--; border-radius: 50%; opacity: 0; transition: opacity 0.4s ease; animation: modulex-galeri-daire-don 14s linear infinite; }
+  .modulex-galeri-daire-oge:hover .modulex-galeri-daire-halka::before { opacity: 1; }
+  .modulex-galeri-daire-g { width: 100%; aspect-ratio: 1; height: auto; border-radius: 50%; object-fit: cover; transition: transform 0.5s ease; }
+  .modulex-galeri-daire-oge:hover .modulex-galeri-daire-g { transform: scale(1.04); }
+  @keyframes modulex-galeri-daire-don { to { transform: rotate(360deg); } }
+  @media (max-width: 768px) { .modulex-galeri-daire-liste { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 16px; } .modulex-galeri-daire-kbaslik { font-size: 0.92rem; } }
+  .modulex-galeri-daire-yer { display: grid; place-items: center; width: 100%; aspect-ratio: 4 / 3; background: color-mix(in srgb, --accent-- 14%, --kartBg--); color: --accentInk--; }
+  .modulex-galeri-daire-yer .material-symbols-outlined { font-size: 40px; }
+  .modulex-galeri-daire-bag { color: inherit; text-decoration: none; }
+  .modulex-galeri-daire-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-galeri-daire-kbaslik { font-size: 1.05rem; font-weight: 700; line-height: 1.3; }
+  .modulex-galeri-daire-kmetin { color: --muted--; font-size: 0.95rem; line-height: 1.6; }
+  .modulex-galeri-daire-kat { color: --accentInk--; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-galeri-daire-kontrol { display: flex; gap: 10px; justify-content: flex-end; margin-block-start: 18px; }
+  .modulex-galeri-daire-ok { display: inline-grid; place-items: center; width: 48px; height: 48px; border: 1px solid --cizgi--; border-radius: 50%; background: --kartBg--; color: --text--; transition: background 0.25s ease, color 0.25s ease, opacity 0.25s ease; }
+  .modulex-galeri-daire-ok:hover:not(:disabled) { background: --accent--; color: --accentText--; }
+  .modulex-galeri-daire-ok:disabled { opacity: 0.4; cursor: default; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-galeri-daire :is(.modulex-galeri-daire-baslik, .modulex-galeri-daire-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-galeri-daire-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-galeri-daire { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-galeri-daire *, .modulex-galeri-daire *::before, .modulex-galeri-daire *::after { animation: none !important; transition: none !important; }
+  }
+</style>
