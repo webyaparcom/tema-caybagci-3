@@ -4,7 +4,9 @@
       "name": {
         "tr": "Hikâye",
         "en": "Story",
-        "ar": "الحكاية"
+        "ar": "الحكاية",
+        "de": "Geschichte",
+        "ru": "История"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -26,7 +28,9 @@
       "description": {
         "tr": "Kurucunun mektubu, masanın etrafı ve kara tahta (kurgusal).",
         "en": "The founder’s letter, around the table and the chalkboard (fictional).",
-        "ar": "رسالة المؤسِّسة وما حول الطاولة واللوح (افتراضي)."
+        "ar": "رسالة المؤسِّسة وما حول الطاولة واللوح (افتراضي).",
+        "de": "Brief des Gründers, der Tisch und die Tafel (fiktiv).",
+        "ru": "Письмо основателя, вокруг стола и меловая доска (вымышленное)."
       }
     },
     {
@@ -34,12 +38,16 @@
       "name": {
         "tr": "Masa",
         "en": "Table",
-        "ar": "طاولة"
+        "ar": "طاولة",
+        "de": "Tisch",
+        "ru": "Стол"
       },
       "description": {
         "tr": "Saat çarkıyla masa talebi; fiyatlar örnektir (demo).",
         "en": "Table request with a time wheel; prices are examples (demo).",
-        "ar": "طلب طاولة بعجلة الوقت؛ الأسعار أمثلة (تجريبي)."
+        "ar": "طلب طاولة بعجلة الوقت؛ الأسعار أمثلة (تجريبي).",
+        "de": "Tischanfrage über das Zeitrad; die Preise sind Beispiele (Demo).",
+        "ru": "Заявка на столик через колесо времени; цены являются примерами (демо)."
       },
       "path": "teklif-al",
       "icon": "table_restaurant",
@@ -59,7 +67,9 @@
       "name": {
         "tr": "Kartpostal",
         "en": "Postcard",
-        "ar": "بطاقة"
+        "ar": "بطاقة",
+        "de": "Postkarten",
+        "ru": "Открытки"
       },
       "status": "play",
       "id": "iletisim",
@@ -80,7 +90,9 @@
       "description": {
         "tr": "Adres, telefon, WhatsApp ve saatler.",
         "en": "Address, phone, WhatsApp and hours.",
-        "ar": "العنوان والهاتف وواتساب والساعات."
+        "ar": "العنوان والهاتف وواتساب والساعات.",
+        "de": "Adresse, Telefon, WhatsApp und Öffnungszeiten.",
+        "ru": "Адрес, телефон, WhatsApp и часы работы."
       }
     }
   ],

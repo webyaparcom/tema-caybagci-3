@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Çayı acele etmeden, taze demle ve herkesin oturabileceği bir salonda sunmak.</p>",
     "en": "<h2>Our mission</h2>\n<p>To serve tea unhurried, freshly brewed, in a room where anyone can sit.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تقديم الشاي بلا عجلة وبتخمير طازج في قاعة يستطيع الجميع الجلوس فيها.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>تقديم الشاي بلا عجلة وبتخمير طازج في قاعة يستطيع الجميع الجلوس فيها.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Tee ohne Eile, frisch gebrüht, in einem Raum, in dem jeder Platz finden kann.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Подавать чай без спешки, свежезаваренным, в зале, где может сесть каждый.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T20:21:33.804Z",
   "update": "2026-11-16T20:24:16.510Z",

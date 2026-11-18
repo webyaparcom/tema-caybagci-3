@@ -3,17 +3,23 @@
   "name": {
     "tr": "Masa",
     "en": "Table",
-    "ar": "طاولة"
+    "ar": "طاولة",
+    "de": "Tisch",
+    "ru": "Стол"
   },
   "description": {
     "tr": "Saat çarkıyla masa talebi; fiyatlar örnektir (demo).",
     "en": "Table request with a time wheel; prices are examples (demo).",
-    "ar": "طلب طاولة بعجلة الوقت؛ الأسعار أمثلة (تجريبي)."
+    "ar": "طلب طاولة بعجلة الوقت؛ الأسعار أمثلة (تجريبي).",
+    "de": "Tischanfrage über das Zeitrad; die Preise sind Beispiele (Demo).",
+    "ru": "Заявка на столик через колесо времени; цены являются примерами (демо)."
   },
   "keyword": {
     "tr": "masa ayırtma, semaver",
     "en": "table booking, samovar",
-    "ar": "حجز طاولة، سماور"
+    "ar": "حجز طاولة، سماور",
+    "de": "Tischreservierung, Samowar",
+    "ru": "бронирование столика, самовар"
   },
   "path": "teklif-al",
   "icon": "table_restaurant",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Masa",
     "en": "Table",
-    "ar": "طاولة"
+    "ar": "طاولة",
+    "de": "Tisch",
+    "ru": "Стол"
   },
   "date": "2026-11-16T20:21:33.961Z",
   "update": "2026-11-16T20:24:16.500Z"

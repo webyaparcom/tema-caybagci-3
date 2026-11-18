@@ -2,7 +2,9 @@
   "name": {
     "tr": "Kartpostal",
     "en": "Postcard",
-    "ar": "بطاقة"
+    "ar": "بطاقة",
+    "de": "Postkarten",
+    "ru": "Открытки"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Adres, telefon, WhatsApp ve saatler.",
     "en": "Address, phone, WhatsApp and hours.",
-    "ar": "العنوان والهاتف وواتساب والساعات."
+    "ar": "العنوان والهاتف وواتساب والساعات.",
+    "de": "Adresse, Telefon, WhatsApp und Öffnungszeiten.",
+    "ru": "Адрес, телефон, WhatsApp и часы работы."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Kartpostal",
     "en": "Postcard",
-    "ar": "بطاقة"
+    "ar": "بطاقة",
+    "de": "Postkarten",
+    "ru": "Открытки"
   },
   "keyword": {
     "tr": "iletişim, Moda",
     "en": "contact, Moda",
-    "ar": "اتصال، مودا"
+    "ar": "اتصال، مودا",
+    "de": "Kontakt, Moda",
+    "ru": "контакты, Moda"
   },
   "text": {},
   "update": "2026-11-16T20:24:16.505Z",
