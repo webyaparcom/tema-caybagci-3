@@ -4,12 +4,16 @@
   "description": {
     "tr": "İnce Belli: Moda’da tek salonlu çay evi; yamaçtan bardağa bir çayın yolculuğu, taze dem, ikramlar ve saat çarkıyla masa ayırtma. Demo site; içerik kurgusal, görseller temsilîdir.",
     "en": "Ince Belli: a one-room tea house in Moda; the journey of tea from slope to glass, fresh brews, treats and table booking with a time wheel. Demo site; content is fictional, images are representative.",
-    "ar": "إنجه بلّي: بيت شاي بقاعة واحدة في مودا؛ رحلة الشاي من المنحدر إلى الكأس، وتخمير طازج وضيافة وحجز طاولة بعجلة الوقت. موقع تجريبي؛ المحتوى افتراضي والصور تمثيلية."
+    "ar": "إنجه بلّي: بيت شاي بقاعة واحدة في مودا؛ رحلة الشاي من المنحدر إلى الكأس، وتخمير طازج وضيافة وحجز طاولة بعجلة الوقت. موقع تجريبي؛ المحتوى افتراضي والصور تمثيلية.",
+    "de": "İnce Belli: Ein einstöckiges Teehaus in Moda; die Reise des Tees vom Hang zur Tasse, frische Aufgüsse, Leckereien und Tischreservierung per Zeitrad. Demo-Seite; Inhalte sind fiktiv, Bilder sind repräsentativ.",
+    "ru": "İnce Belli: однокомнатный чайный домик в Мода; путь чая от склона до стакана, свежая заварка, угощения и бронирование стола с помощью колеса времени. Демо-сайт; контент вымышленный, изображения иллюстративные."
   },
   "keyword": {
     "tr": "çay evi, ince belli bardak, demlik çay, Moda, Kadıköy, masa ayırtma",
     "en": "tea house, tulip tea glass, pot tea, Moda, Kadikoy, table booking",
-    "ar": "بيت شاي، كأس الشاي التركي، شاي الإبريق، مودا، قاضي كوي، حجز طاولة"
+    "ar": "بيت شاي، كأس الشاي التركي، شاي الإبريق، مودا، قاضي كوي، حجز طاولة",
+    "de": "Teestube, tulpenförmiges Teeglas, Teekanne, Moda, Kadıköy, Tisch reservieren",
+    "ru": "чайный дом, тюльпановая чашка, чайник, Moda, Kadıköy, бронирование стола"
   },
   "category": "Kurumsal",
   "name": "İnce Belli",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

@@ -2,7 +2,9 @@
   "name": {
     "tr": "Hikâye",
     "en": "Story",
-    "ar": "الحكاية"
+    "ar": "الحكاية",
+    "de": "Geschichte",
+    "ru": "История"
   },
   "status": "play",
   "category": "",
@@ -24,7 +26,9 @@
   "description": {
     "tr": "Kurucunun mektubu, masanın etrafı ve kara tahta (kurgusal).",
     "en": "The founder’s letter, around the table and the chalkboard (fictional).",
-    "ar": "رسالة المؤسِّسة وما حول الطاولة واللوح (افتراضي)."
+    "ar": "رسالة المؤسِّسة وما حول الطاولة واللوح (افتراضي).",
+    "de": "Brief des Gründers, der Tisch und die Tafel (fiktiv).",
+    "ru": "Письмо основателя, вокруг стола и меловая доска (вымышленное)."
   },
   "spot": {
     "tr": "",
@@ -35,12 +39,16 @@
   "title": {
     "tr": "Hikâye",
     "en": "Story",
-    "ar": "الحكاية"
+    "ar": "الحكاية",
+    "de": "Geschichte",
+    "ru": "История"
   },
   "keyword": {
     "tr": "çay evi, hikâye",
     "en": "tea house, story",
-    "ar": "بيت شاي، حكاية"
+    "ar": "بيت شاي، حكاية",
+    "de": "Teestube, Geschichte",
+    "ru": "чайный домик, история"
   },
   "text": {},
   "update": "2026-11-16T20:24:16.494Z",
